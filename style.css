@@ -18,7 +18,7 @@ body {
 /* Header */
 
 header {
-  padding: 1.5rem 0 0 1rem;
+  padding: 1.5rem 1rem 0 1rem;
 }
 
 .logo {
@@ -28,6 +28,10 @@ header {
 .logo img {
   height: 100%;
   width: 100%;
+}
+
+.menu {
+  display: none;
 }
 
 /* Main */
@@ -108,3 +112,82 @@ hr {
     justify-content: space-around;
 }
 
+@media screen and (min-width:680px) {
+  main {
+    display: flex;
+    padding: 0 5rem;
+    margin-top: 2rem;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+  }
+  .menu li {
+    margin-left: 1rem;
+  }
+
+  /* section 1 desktop*/
+
+  .section1Desktop {
+    display: flex;
+  }
+
+ /* section 1 */
+ .section1 {
+  padding: 0;
+  margin-right: 1rem;
+ }
+ .imgSection1 {
+  height: 20rem;
+  overflow: hidden;
+ }
+
+ .textSection1 {
+  display: flex;
+ }
+
+ .textSection1 h1, .textSection1 div {
+  width: 50%;
+ }
+
+ .textSection1 h1 {
+  font-size: 3vw;
+ }
+
+ .section1Desktop .section1 {
+  width: 70%;
+ }
+
+ .section1Desktop .section2 {
+  width: 30%;
+ }
+
+ /* section 2 */
+
+ .section2 {
+  margin: 0;
+ }
+
+ /* Section 3 */
+
+  .section3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  } 
+
+  .content-3 {
+    width: 30%;
+  }
+
+}

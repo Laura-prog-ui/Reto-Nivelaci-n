@@ -1,3 +1,6 @@
+
+/*Mobile*/
+
 @font-face {
   font-family: texto;
   src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
@@ -113,6 +116,8 @@ hr {
   flex-direction: column;
   justify-content: space-around;
 }
+
+  /* Desktop*/
 
 @media screen and (min-width: 680px) {
   main {
